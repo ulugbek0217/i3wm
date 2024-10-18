@@ -46,7 +46,7 @@ Make scripts executable to make them work properly: ```chmod +x $HOME/.config/i3
 
 #### Rice contains some specific settings !
 
-Edit kbd_layouts.config for relevant layouts for you.
+Edit ```kbd_layouts.config``` for relevant layouts for you.
 If you're using laptop, uncomment ```#order += "battery 0"``` line in ```i3status.config``` to enable showing battery info.
 You can change rofi theme in ```rofi.config```. Additional themes are stored in the ```rofi/themes``` folder.
 
