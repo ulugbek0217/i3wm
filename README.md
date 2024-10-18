@@ -53,3 +53,14 @@ You can change rofi theme in ```rofi.config```. Additional themes are stored in 
 Run ```xrandr``` in the terminal and get your monitors' information. Edit the ```Scripts/refresh_rate.sh``` script, change monitor, refresh rate and resolution with relevant ones for you pc or just comment ```exec --no-startup-id bash $HOME/.config/i3/Scripts/refresh_rate.sh``` line in ```executor.config``` file to use default ones.
 
 Mouse pointer speed is being configured by ```pointer_speed.sh``` script. The speed is configured between -1 (slower) and 1 (faster). Change the id(in my case it is 16) of the mouse with one of yours. You can get list of devices by running ```xinput```. If you are fine with default mouse pointer speed, then just comment the ```exec --no-startup-id bash $HOME/.config/i3/Scripts/pointer_speed.sh``` line in ```executor.conf```.
+
+#### Application themes
+
+If some applications are using white and other applications dark theme, you should edit gtk-3/4 settings to make all of them use dark theme. To do this, open ```.config/gtk-3.0/settings.ini``` and ```.config/gtk-4.0/settings.ini``` files, change ```gtk-application-prefer-dark-theme``` from 0 to 1. If not exists, then add 
+
+```
+[Settings]
+gtk-application-prefer-dark-theme=1
+```
+
+Then reboot your system. If it doesn't help, then try with ```lxappearance``` app.
