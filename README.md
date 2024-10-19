@@ -20,6 +20,7 @@
 - playerctl (to control audio play)
 - x11-xkb-utils (to change keyboard layouts)
 - xinput (to configure mouse sensitivity)
+- brightnessctl (to control monitor brightness in laptops)
 
 - "SF Pro Display" font - default font for i3
 

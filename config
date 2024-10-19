@@ -49,6 +49,12 @@ bindsym XF86AudioNext exec playerctl next
 # Previous track
 bindsym XF86AudioPrev exec playerctl previous
 
+# Monitor brightness
+# increase
+bindsym XF86MonBrightnessDown exec brightnessctl s 5%-
+#decrease
+bindsym XF86MonBrightnessUp exec brightnessctl s +5%
+
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
 set $up l
