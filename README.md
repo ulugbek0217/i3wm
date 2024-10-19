@@ -43,6 +43,7 @@ Make scripts executable to make them work properly: ```chmod +x $HOME/.config/i3
 - Printsc -> run the screensaver tool
 - Mod + Backspace -> run dialogue for logout, suspend, hibernate, lock, shutdown, restart
 - Mod + Ctrl + Shift + l -> quick lock screen (lockscreen wallpapers will be chosen randomly)
+- Super + e -> File explorer (nemo)
 
 #### Rice contains some specific settings !
 
