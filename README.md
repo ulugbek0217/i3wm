@@ -21,7 +21,7 @@
 - x11-xkb-utils (to change keyboard layouts)
 - xinput (to configure mouse sensitivity)
 - brightnessctl (to control monitor brightness in laptops)
-
+- jq
 - "SF Pro Display" font - default font for i3
 
 After installation needed packages, create needed folder:
