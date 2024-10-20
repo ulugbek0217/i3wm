@@ -177,6 +177,9 @@ bindsym Mod1+7 workspace number $ws7
 bindsym Mod1+8 workspace number $ws8
 bindsym Mod1+9 workspace number $ws9
 bindsym Mod1+0 workspace number $ws10
+# switch to workspace using mouse wheel
+bindsym --whole-window --border Mod1+button5 workspace next
+bindsym --whole-window --border Mod1+button4 workspace prev
 
 # move focused container to workspace
 bindsym Mod1+Shift+1 move container to workspace number $ws1
@@ -189,6 +192,9 @@ bindsym Mod1+Shift+7 move container to workspace number $ws7
 bindsym Mod1+Shift+8 move container to workspace number $ws8
 bindsym Mod1+Shift+9 move container to workspace number $ws9
 bindsym Mod1+Shift+0 move container to workspace number $ws10
+# move focused container to workspace using mouse
+bindsym --whole-window --border Mod1+Shift+button5 exec --no-startup-id bash $HOME/.config/i3/Scripts/move_container.sh next
+bindsym --whole-window --border Mod1+Shift+button4 exec --no-startup-id bash $HOME/.config/i3/Scripts/move_container.sh prev
 
 # reload the configuration file
 bindsym Mod1+Shift+c reload

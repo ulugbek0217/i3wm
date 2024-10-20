@@ -42,9 +42,12 @@ Make scripts executable to make them work properly: ```chmod +x $HOME/.config/i3
 - Mod + Shift + w -> change wallpaper (wallpaper gets changed automatically in every 15 minutes)
 - Super + space -> change the keyboard layouts (en/ru)
 - Printsc -> run the screensaver tool
+- Mod + d -> run applications launcher
 - Mod + Backspace -> run dialogue for logout, suspend, hibernate, lock, shutdown, restart
-- Mod + Ctrl + Shift + l -> quick lock screen (lockscreen wallpapers will be chosen randomly)
+- Mod + Ctrl + Shift + l(lowercase L) -> quick lock screen (lockscreen wallpapers will be chosen randomly)
 - Super + e -> File explorer (nemo)
+- Mod + Mouse wheel down/up -> change workspace
+- Mod + Shift + Mouse wheel down/up -> change focused container to next/previous workspace
 
 #### Rice contains some specific settings !
 
